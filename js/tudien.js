@@ -1,10 +1,5 @@
 let english = ["hello", "house", "water", "cake"];
 let vietnamese = ["xin chao", "ngoi nha", "nuoc uong", "banh ngot"];
-
-console.log(keyword);
-console.log(keyword == english[1]);
-
-
 function show() {
     let keyword = document.getElementById('search').value;
     let count = 0;
@@ -14,8 +9,6 @@ function show() {
             count =1;
             break;
         }
-
-
     }
     if (count==0) {
         document.getElementById('p1').innerHTML = "khong tim thay";
